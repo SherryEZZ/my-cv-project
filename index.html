@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CV sherry</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+    <button onclick="viewLogIn()" style="width:auto;" class="log-button">Login</button>
+
+    <div id="log" class="main">
+
+        <form class="log-form" action="index.html" method="get">
+            <div class="imgContainer">
+                <span onclick="closeLogIn()" class="close" title="Close form">&times;</span>
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username:</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="pass"><b>Password:</b></label>
+                <input type="password" placeholder="Enter Password" name="pass" required>
+
+                <button type="submit" class="log-btn">Login</button>
+            </div>
+
+            <div class="buttom-container">
+                <button type="button" onclick="closeLogIn()" class="cancelBtn">Cancel</button>
+                <span class="pass"><a href="#">Forgot password?</a></span>
+            </div>
+        </form>
+    </div>
+
+    <span class="left-menu" onclick="openNav()">&#9776;</span>
+
+
+    <div id="Sidenav" class="sidenav">
+        <a class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#About">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="hobbies.html">my hobbies</a>
+    </div>
+   
+    <div class="top-container" id="top">
+        <div class="child">
+            <p>Iam Sherry</p>
+            <p>front-end developer</p>
+        </div>
+    </div>
+    <div class="main-container" id="About">
+        <table>
+            <tr>
+                <td>
+                    <img src="photo.jpeg" alt="profile picture" width="200px">
+                </td>
+                <td class="table-cell">
+                    <h2>Sherry Ezz</h2>
+                    <p>
+                        <i>student At</i>
+                        <a class="link" href="https://www.facebook.com/AAST.CCIT.ASWAN"
+                            target="_blank">AAST_Aswan</a>
+                    </p>
+                    <p >I am  front-end web develober❤️ </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="main-container">
+        <hr>
+        <h3>Education</h3>
+        <ul>
+            <li>collage of computing and Information Technology </li>
+        </ul>
+    </div>
+
+    <div class="main-container tab-body">
+        <hr>
+        <h3>My projects</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Name</th>
+                    <th>Programming languages</th>
+                </tr>
+                <tr>
+                    <td>CV</td>
+                    <td>HTML, CSS, JS</td>
+                </tr>
+        </table>
+    </div>
+   
+    <div class="main-container tab-body">
+        <hr>
+        <h3>Programming languages</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>c</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>c++</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>JS</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        <div class="btn">
+            <a href="contact.html">Contact Me</a>
+            <a href="hobbies.html">MyHobbies</a>
+        </div>
+        <p>&copy;Sherry_Ezz@AAST_Aswan</p>
+    </div>
+
+    <script src="style.js"></script>
+    <script src="style2.js"></script>
+</body>
+
+</html>
